@@ -1,0 +1,14 @@
+[package]
+name = "rust-wasm"
+version = "0.1.0"
+authors = ["Emre Kayık emrekayik1905@gmail.com"]
+description = "A sample project with wasm-pack"
+repository = "https://github.com/emrekayik/rust-wasm.git"
+edition = "2021"
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
